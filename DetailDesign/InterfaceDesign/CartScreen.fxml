@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Spinner?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="768.0" prefWidth="1366.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ImageView fitHeight="106.0" fitWidth="151.0" layoutX="-18.0" layoutY="-7.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../Downloads/asdsdaasd.png" />
+         </image>
+      </ImageView>
+      <Text fill="#0099ff" layoutX="92.0" layoutY="60.0" strokeType="OUTSIDE" strokeWidth="0.0" text="CART">
+         <font>
+            <Font name="Segoe UI Historic" size="35.0" />
+         </font>
+      </Text>
+      <Pane layoutX="38.0" layoutY="97.0" prefHeight="619.0" prefWidth="921.0" style="-fx-border-color: #c0c0c0;">
+         <children>
+            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="23.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../Downloads/51lEfwiV3OL.jpg" />
+               </image>
+            </ImageView>
+            <Text fill="#0059ff" layoutX="196.0" layoutY="63.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Book3">
+               <font>
+                  <Font size="30.0" />
+               </font>
+            </Text>
+            <Button layoutX="189.0" layoutY="79.0" mnemonicParsing="false" prefHeight="56.0" prefWidth="174.0" text="Delete">
+               <font>
+                  <Font size="26.0" />
+               </font>
+            </Button>
+            <Spinner editable="true" layoutX="793.0" layoutY="67.0" prefHeight="35.0" prefWidth="98.0" />
+            <Text fill="#0059ff" layoutX="692.0" layoutY="81.0" strokeType="OUTSIDE" strokeWidth="0.0" text="998₫">
+               <font>
+                  <Font name="System Bold" size="38.0" />
+               </font>
+            </Text>
+            <Text fill="#0059ff" layoutX="704.0" layoutY="112.0" strokeType="OUTSIDE" strokeWidth="0.0" text="VND">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Text>
+         </children>
+      </Pane>
+      <Text layoutX="996.0" layoutY="142.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Subtotal:">
+         <font>
+            <Font name="System Bold" size="30.0" />
+         </font>
+      </Text>
+      <Text layoutX="996.0" layoutY="185.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Amount:">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Text>
+      <Text fill="#0059ff" layoutX="1144.0" layoutY="140.0" strokeType="OUTSIDE" strokeWidth="0.0" text="1,976 ₫">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Text>
+      <Text fill="#0059ff" layoutX="1145.0" layoutY="180.0" strokeType="OUTSIDE" strokeWidth="0.0" text="2.173 ₫">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Text>
+      <Text fill="RED" layoutX="1286.0" layoutY="176.0" strokeType="OUTSIDE" strokeWidth="0.0" text="VAT(10%)">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Text>
+      <Button layoutX="994.0" layoutY="275.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="333.0" style="-fx-background-color: #ff0000;" text="Place Order" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="30.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
