@@ -21,10 +21,10 @@ class ValidatePhoneNumberTest {
 	@ParameterizedTest
 	@CsvSource({
 		"1234567890,false",
-		"012354756,false",
-		"a123456789,false",
+		"0234752,false",
+		"g54gs42320,false",
 		"0123456789,true",
-		"0214ag5623,false"
+		"032641g4785,false"
 	})
 	void test(String phone, boolean expected) {
 		//when

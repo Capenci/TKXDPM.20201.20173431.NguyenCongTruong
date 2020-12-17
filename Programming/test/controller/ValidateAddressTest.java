@@ -19,10 +19,10 @@ class ValidateAddressTest {
 	@CsvSource({
 		",false",
 		"01 Dai Co Viet,true",
-		"Dai hoc Bach Khoa Ha Noi,true",
-		"Nguyen@VanSon,false",
-		"Van&Son,false",
-		"Son*,false"
+		"Bach Khoa Ha Noi,true",
+		"abc #xyz,false",
+		"truong t$tt,false",
+		"lab01*,false"
 	})
 	void test(String address, boolean expected) {
 		//when

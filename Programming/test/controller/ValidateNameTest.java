@@ -21,10 +21,10 @@ class ValidateNameTest {
 	@ParameterizedTest
 	@CsvSource({
 		",false",
-		".Son, false",
-		"Nguyen Van Son, true",
-		"Van&Son,false",
-		"Son*,false"
+		".Truong, false",
+		"Nguyen Cong Truong, true",
+		"Nguyen&Cong&Truong,false",
+		"Truong*,false"
 	})
 	void test(String name, boolean expected) {
 		//when
